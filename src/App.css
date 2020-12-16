@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(80, 163, 163);
+  color: aliceblue;
+  font-size: 40px;
+  padding: 40px;
+}
