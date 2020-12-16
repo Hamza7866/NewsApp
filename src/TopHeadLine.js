@@ -18,7 +18,7 @@ const TopHeadLine = ({ newsData }) => {
                 <h3>{news.title}</h3>
                 <p>{news.content}</p>
                 <p>
-                  <Button href={news.url} variant="primary">
+                  <Button href={news.url} target="_blank" variant="primary">
                     Read More
                   </Button>
                 </p>
