@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Source Sans Pro", sans-serif;
+  background: rgb(80, 163, 163);
 }
 h1 {
   text-align: center;
@@ -14,4 +15,13 @@ h1 {
   color: aliceblue;
   font-size: 40px;
   padding: 40px;
+}
+.title {
+  margin-top: 20px;
+}
+.main-img {
+  width: 100%;
+}
+.main-container {
+  display: flex;
 }

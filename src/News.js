@@ -2,14 +2,15 @@ import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import TopHeadLine from "./TopHeadLine";
+
 const News = () => {
   const [newsData, setNewsData] = useState([]);
-  console.log(newsData);
+
   const newsApi = async () => {
     const res = await axios.get(
-      `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=us&apiKey=9d33da08e78a4541a26669e980396fc0`
+      `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.REACT_APP_NEWS_KEY}`
     );
-    // console.log(res.data.articles);
+
     setNewsData(res.data.articles);
   };
 
